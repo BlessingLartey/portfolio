@@ -32,7 +32,7 @@
   }
   
   .hero-overlay{
-    background: -webkit-linear-gradient(black, black, rgb(255, 255, 255));
+    background: black;
     height: 100vh;
     display: flex;
     flex-direction: column;
