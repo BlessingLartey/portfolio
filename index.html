@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
   <section class="hero-sec">
     <div class="hero-overlay">
       <nav class="navbar">
@@ -17,27 +18,29 @@
           <a class="navbar-brand" href="#">BKL</a>
         </div>
         <div>
-          <ul class="nav navbar-nav">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SKILL</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">TEAM</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
+          <div class="nav">
+            <span><a href="#">HOME</a></span>
+            <span><a href="#">ABOUT</a></span>
+            <span><a href="#">SKILL</a></span>
+            <span><a href="#">PORTFOLIO</a></span>
+            <span><a href="#">TEAM</a></span>
+            <span><a href="#">BLOG</a></span>
+            <span><a href="#">CONTACT</a></span>
+          </div>
         </div>
       </nav>
       <div class="hero-content">
         <h1>HELLO</h1>
         <h1>I'M BLESSING LARTEY</h1>
         <ul class="hero-content__sub-title">
-          <li>UI/UX DESIGNER <span>&#45;</span></li>
           <li>WEB DEVELOPER <span>&#45;</span></li>
-          <li>PHOTOGRAPHAR</li>
+          <li> UI/UX DESIGNER <span>&#45;</span></li>
+          <li> BACKEND DEVEVLOPER </li>
         </ul>
         <a class="hero-button" href="#">HAVE PROJECT? LET'S TALK</a>
       </div>
+      
+      
       <div class="social-icon">
         <ul>
           <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
@@ -49,6 +52,7 @@
     </div>
   </section>
 
+  <div class="content">
   <section class="about">
     <div class="about-div">
       <div class="page-section-title">
@@ -66,10 +70,10 @@
           <div class="bio-div">
             <div>
               <p class="about-bio"><strong>NAME :</strong> Blessing Lartey</p>
-              <p class="about-bio"><strong>AGE :</strong> 16</p>
+              <p class="about-bio"><strong>AGE :</strong> 24</p>
             </div>
             <div>
-              <p class="about-bio"><strong>JOB TITLE :</strong> Front-end Web Developer & UI/UX Designer</p>
+              <p class="about-bio"><strong>JOB TITLE :</strong>Web Developer - UI/UX Designer, Backend Developer</p>
               <p class="about-bio"><strong>LOCATION :</strong> Accra, Ghana</p>
             </div>
           </div>
@@ -94,7 +98,7 @@
       <div class="below-overlay-div">
         <div><h2 class="page-section-title white">MY SKILLS</h2></div>
         <div>
-          <p>I specialize in front-end web development, building intuitive and responsive user interfaces. My expertise includes HTML, CSS, JavaScript, React, and various web development tools. I'm always learning new technologies to stay current with industry trends and improve my skillset.</p>
+          <p>I specialize in web development, building intuitive and responsive user interfaces. My expertise includes HTML, CSS, JavaScript, React, Node, Express and various web development tools. I'm always learning new technologies to stay current with industry trends and improve my skillset.</p>
         </div>
   
         <div class="skill-card-div">
@@ -113,7 +117,7 @@
           <div class="skill-card">
             <div class="thumbnail text-center">
               <img src="assets/images/css-logo.png" alt="CSS">
-              <h4 class="skill__single-part__title">CSS3</h4>
+              <h4 class="skill__single-part__title">CSS3, Tailwind, Bootstrap</h4>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #2965F1;"></div>
               </div>
@@ -141,10 +145,25 @@
               </div>
             </div>
           </div>
+
+          <!-- Node Skill Card -->
+          <div class="skill-card">
+            <div class="thumbnail text-center">
+              <img src="assets/images/react-logo.png" alt="React">
+              <h4 class="skill__single-part__title">Node</h4>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #61DBFB;"></div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </section>
+
+  
+</section>
   
   <section class="portfolio">
     <div>
@@ -152,7 +171,7 @@
             <div class="page-section-title">
                 <h2 class="page-section__title white">MY PORTFOLIO</h2>
             </div>
-            <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="page-section__paragraph">This is the summary of some project I have worked on.</p>
             <div class="portfolio__button-group">
                 <a class="button button--default" data-filter="all" href="javascript:void(0);">ALL</a>
                 <a class="button button--default" data-filter="category-a" href="javascript:void(0);">DEVELOPMENT</a>
@@ -225,9 +244,9 @@
     <div class="container text-center">
       <h1 class="footer__title">BKL</h1>
       <ul class="footer__contact-information">
-        <li><a href="tel:5555555555"><i class="material-icons">phone</i>  (+233) 45 67 89 21</a></li>
-        <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons">email</i> bbklartey@gmail.com</a></li>
-        <li><a href="#"><i class="material-icons">location_on</i> Adenta.</a></li>
+        <li><a href="tel:5555555555"><i class="material-icons">phone:</i>  (+233) 245 644 384</a></li>
+        <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons">email:</i> bbklartey@gmail.com</a></li>
+        <li><a href="#"><i class="material-icons">location:</i> Accra, Ghana.</a></li>
       </ul>
     </div>
     <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
@@ -243,7 +262,7 @@
       <p class="footer__paragraph">Copyright &copy; 2025 Blessing , All Rights Reserved.</p>
     </div>
   </footer>
-
+</div>
   <script src="./js/toggle.js"></script>
 
 </body>
