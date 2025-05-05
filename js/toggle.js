@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const portfolioItems = document.querySelectorAll('.portfolio__single-section');
     const heroSection = document.querySelector('.hero-sec');
     const content = document.querySelector('.content');
-    const maxItemsToShow = 2;
+    const maxItemsToShow = 5;
 
     // Hero scroll shrink effect
     window.addEventListener('scroll', function () {
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
             content.classList.add('shrink');
         } else {
             heroSection.classList.remove('shrink');
-            content.classList.remove('shrink');
+            content.classList.remove('shrink');  
         }
     });
 

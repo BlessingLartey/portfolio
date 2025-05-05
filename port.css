@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0a192f;
+    color: #ccd6f6;
+    display: flex;
+    scroll-behavior: smooth;
+  }
+  
+  .sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background-color: rgba(10, 25, 47, 0.7); /* semi-transparent */
+    backdrop-filter: blur(10px);
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #64ffda;
+    margin-bottom: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    margin: 25px 0;
+  }
+  
+  .nav a {
+    color: #a8b2d1;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+    font-weight: 500;
+  }
+  
+  .nav a:hover {
+    color: #64ffda;
+  }
+  
+  .main-content {
+    margin-left: 250px;
+    padding: 60px;
+    flex: 1;
+  }
+  
+  .section {
+    margin-top: 100px;
+  }
+  
+  h1, h2 {
+    color: #64ffda;
+  }
+  
+  .email-link {
+    color: #64ffda;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+  
+  

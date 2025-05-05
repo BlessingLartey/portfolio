@@ -15,45 +15,44 @@
     <div class="hero-overlay">
       <nav class="navbar">
         <div>
-          <a class="navbar-brand" href="#">BKL</a>
+          <a class="navbar-brand" href="#home">BKL</a>
         </div>
         <div>
           <div class="nav">
             <span><a href="#">HOME</a></span>
-            <span><a href="#">ABOUT</a></span>
-            <span><a href="#">SKILL</a></span>
-            <span><a href="#">PORTFOLIO</a></span>
-            <span><a href="#">TEAM</a></span>
-            <span><a href="#">BLOG</a></span>
-            <span><a href="#">CONTACT</a></span>
+            <span><a href="#about">ABOUT</a></span>
+            <span><a href="#skill">SKILL</a></span>
+            <span><a href="#portfolio">PORTFOLIO</a></span>
+            <span><a href="#contact">CONTACT</a></span>
           </div>
         </div>
       </nav>
-      <div class="hero-content">
+      <div class="hero-content" id="home">
         <h1>HELLO</h1>
         <h1>I'M BLESSING LARTEY</h1>
         <ul class="hero-content__sub-title">
           <li>WEB DEVELOPER <span>&#45;</span></li>
           <li> UI/UX DESIGNER <span>&#45;</span></li>
-          <li> BACKEND DEVEVLOPER </li>
+          <li> BACKEND DEVELOPER </li>
         </ul>
-        <a class="hero-button" href="#">HAVE PROJECT? LET'S TALK</a>
+        <a class="hero-button" href="#contact">HAVE PROJECT? LET'S TALK</a>
       </div>
-      
-      
+  
       <div class="social-icon">
         <ul>
-          <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-          <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-          <li><a href="#"><i class="flaticon-behance-logo"></i></a></li>
-          <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
+          <li><a href="https://facebook.com" target="_blank"><i class="flaticon-facebook-letter-logo"></i></a></li>
+          <li><a href="https://twitter.com" target="_blank"><i class="flaticon-twitter-logo"></i></a></li>
+          <li><a href="https://behance.net" target="_blank"><i class="flaticon-behance-logo"></i></a></li>
+          <li><a href="https://dribbble.com" target="_blank"><i class="flaticon-dribbble-logo"></i></a></li>
         </ul>
       </div>
     </div>
   </section>
+  
 
   <div class="content">
-  <section class="about">
+
+  <section class="about"  id="about">
     <div class="about-div">
       <div class="page-section-title">
         <h2>ABOUT ME</h2>
@@ -65,7 +64,7 @@
       <div class="about-sec">
         <img src="./assets/images/blessing.jpg" alt="Blessing Lartey">
         <div class="about-sec-right">
-          <p>From the moment I started coding, I realized it was the perfect blend of creativity and logic. I have experience working with HTML, CSS, JavaScript, and various front-end frameworks. In my free time, I contribute to open-source projects and experiment with new technologies to stay ahead of trends in web development.</p>
+          <p>From the moment I started coding, I realized it was the perfect blend of creativity and logic. I have experience working with HTML, CSS, JavaScript, and various front-end frameworks.</p>
   
           <div class="bio-div">
             <div>
@@ -90,10 +89,8 @@
       </div>
     </div>
   </section>
-  
-  
 
-  <section class="skill">
+  <section class="skill"  id="skill">
     <div class="skill-overlay">
       <div class="below-overlay-div">
         <div><h2 class="page-section-title white">MY SKILLS</h2></div>
@@ -149,10 +146,10 @@
           <!-- Node Skill Card -->
           <div class="skill-card">
             <div class="thumbnail text-center">
-              <img src="assets/images/react-logo.png" alt="React">
+              <img src="assets/images/node-logo.png" alt="React">
               <h4 class="skill__single-part__title">Node</h4>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #61DBFB;"></div>
+                <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #1e5e33;"></div>
               </div>
             </div>
           </div>
@@ -161,11 +158,9 @@
       </div>
     </div>
   </section>
-
   
-</section>
   
-  <section class="portfolio">
+  <section class="portfolio"  id="portfolio">
     <div>
         <div class="portfolio-container">
             <div class="page-section-title">
@@ -180,7 +175,7 @@
                 <a class="button button--default" data-filter="category-d" href="javascript:void(0);">JAVASCRIPT</a>
             </div>
             <div class="portfolio__items">
-                <div class="portfolio__single-section mix category-a category-b category-c" data-order="1">
+                <div class="portfolio__single-section mix category-b category-c" data-order="1">
                     <img class="portfolio__single-section__image" src="assets/images/portfolio-1.png" alt="">
                     <div class="portfolio__single-section__overlay">
                         <div class="overlay-content">
@@ -207,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio__single-section mix category-b category-d" data-order="4">
+                <div class="portfolio__single-section mix category-a category-d" data-order="4">
                     <img class="portfolio__single-section__image" src="assets/images/portfolio-4.png" alt=""/>
                     <div class="portfolio__single-section__overlay">
                         <div class="overlay-content">
@@ -239,6 +234,26 @@
     </div>
 </section>
 
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    <div class="contact-header">
+      <h2>Contact Me</h2>
+      <p>Let's work together or just say hello</p>
+    </div>
+
+    <div class="contact-content">
+      <form class="contact-form" action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit" class="submit-button">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
 
  <footer class="footer footer--bg">
     <div class="container text-center">
@@ -251,14 +266,6 @@
     </div>
     <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
     <div class="container text-center">
-      <div class="social-icon">
-        <ul>
-          <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-          <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-          <li><a href="#"><i class="flaticon-behance-logo"></i></a></li>
-          <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-        </ul>
-      </div>
       <p class="footer__paragraph">Copyright &copy; 2025 Blessing , All Rights Reserved.</p>
     </div>
   </footer>
