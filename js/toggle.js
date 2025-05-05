@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Hero scroll shrink effect
     window.addEventListener('scroll', function () {
+        const smallerScreens = this.window.innerWidth <= 768;
+
+        if(!smallerScreens){
         if (window.scrollY > 50) {
             heroSection.classList.add('shrink');
             content.classList.add('shrink');
@@ -14,6 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
             heroSection.classList.remove('shrink');
             content.classList.remove('shrink');  
         }
+    } else {
+        // Always remove shrink on small screens to allow flow
+        heroSection.classList.remove('shrink');
+        content.classList.remove('shrink');
+    }
     });
 
     // Portfolio filter logic
