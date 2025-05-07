@@ -371,17 +371,6 @@
   position: relative;
 }
 
-.page-section-title::after {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 3px;
-  background-color: #fff;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 /* Skill Cards Container */
 .skill-card-div {
   display: flex;
