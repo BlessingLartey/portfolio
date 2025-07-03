@@ -8,8 +8,8 @@ const projects = [
       "A responsive e-commerce website built with HTML, CSS, and JavaScript. Features include product catalog, shopping cart functionality, and responsive design optimized for all devices.",
     image: "/placeholder.svg?height=200&width=300",
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://stalwart-frangollo-ccb278.netlify.app/",
+    githubLink: "https://github.com/BlessingLartey/Gift-Shop-e-comm",
   },
   {
     title: "Employee Appraisal System",
