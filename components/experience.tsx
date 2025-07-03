@@ -3,26 +3,26 @@ import { ExternalLink } from "lucide-react"
 const experiences = [
   {
     period: "2023 — PRESENT",
-    title: "Full Stack Developer",
-    company: "Freelance",
+    title: "Frontend Developer",
+    company: "NearForGood",
     description:
       "Build and maintain critical components used to construct web applications and mobile apps. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
     technologies: ["JavaScript", "TypeScript", "React", "Node.js", "Next.js"],
-    link: "#",
+    link: "https://retm-front-ten.vercel.app/dashboard",
   },
   {
-    period: "2022 — 2023",
-    title: "Frontend Developer",
-    company: "Digital Agency",
+    period: "2025",
+    title: "Backend Developer",
+    company: "Freelancing",
     description:
       "Built, styled, and shipped high-quality websites, design systems, mobile apps, and digital experiences for a diverse array of projects for clients including small businesses and large corporations.",
-    technologies: ["JavaScript", "React", "HTML", "CSS", "WordPress"],
-    link: "#",
+    technologies: ["MongoDb", "Node.js"],
+    link: "https://www.faivich.com/",
   },
   {
     period: "2021 — 2022",
     title: "Junior Web Developer",
-    company: "Tech Startup",
+    company: "NearForGood",
     description:
       "Developed and maintained web applications using modern JavaScript frameworks. Collaborated with design and product teams to implement user-friendly interfaces and improve user experience.",
     technologies: ["HTML", "CSS", "JavaScript", "Vue.js", "PHP"],
