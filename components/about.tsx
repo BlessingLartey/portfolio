@@ -14,28 +14,28 @@ export function About() {
 
         <p>
           Currently, I'm a Full Stack Developer at{" "}
-          <a href="#" className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
-            Freelance
+          <a href="https://x.com/nearforgood" className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
+            NearForGood
           </a>
-          , specializing in accessibility. I contribute to the creation and maintenance of web applications that power
+          , a tech startup firm. I contribute to the creation and maintenance of web applications that power
           modern digital experiences, ensuring our platforms meet web accessibility standards and best practices to
           deliver an inclusive user experience.
         </p>
 
         <p>
           In the past, I've had the opportunity to develop software across a variety of settings — from{" "}
-          <a href="#" className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
-            advertising agencies
+          <a href="https://www.faivich.com/" className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
+            advertising agency
           </a>{" "}
           and{" "}
           <a href="#" className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
-            large corporations
+         corporations
           </a>{" "}
           to{" "}
           <a href="#" className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
-            start-ups
+            start-ups.
           </a>{" "}
-          and{" "}
+          {/* and{" "}
           <a href="#" className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
             small digital product studios
           </a>
@@ -43,7 +43,7 @@ export function About() {
           <a href="#" className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
             comprehensive video course
           </a>{" "}
-          a few years ago, guiding learners through building a web app with modern technologies.
+          a few years ago, guiding learners through building a web app with modern technologies. */}
         </p>
 
         <p>
