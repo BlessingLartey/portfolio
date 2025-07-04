@@ -83,7 +83,7 @@ export function Experience() {
         ))}
       </div>
 
-      <div className="mt-12">
+      {/* <div className="mt-12">
         <a
           className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
           href="/BlessingLartey-CV.pdf"
@@ -97,7 +97,7 @@ export function Experience() {
             <ExternalLink className="ml-1 inline-block h-4 w-4 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-focus-visible:-translate-y-1 group-focus-visible:translate-x-1 motion-reduce:transition-none" />
           </span>
         </a>
-      </div>
+      </div> */}
     </section>
   )
 }
