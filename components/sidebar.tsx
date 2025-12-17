@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Github, Linkedin, Twitter, Mail, Menu, X } from "lucide-react"
+import { Github, Linkedin, Mail, Menu, X } from "lucide-react"
 
 export function Sidebar() {
   const [activeSection, setActiveSection] = useState("about")
@@ -99,7 +99,7 @@ export function Sidebar() {
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-slate-200 transition-colors duration-200"
               >
-                <Twitter size={20} />
+                <X size={20} />
               </a>
               <a
                 href="mailto:bbklartey@gmail.com"
@@ -149,7 +149,7 @@ export function Sidebar() {
           </nav>
         </div>
 
-        <div className="flex space-x-6">
+        <div className="flex space-x-6 mt-60">
           <a
             href="https://github.com"
             target="_blank"
@@ -172,7 +172,7 @@ export function Sidebar() {
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-slate-200 transition-colors duration-200"
           >
-            <Twitter size={24} />
+            <X size={24} />
           </a>
           <a
             href="mailto:bbklartey@gmail.com"
