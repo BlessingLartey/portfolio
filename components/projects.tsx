@@ -12,33 +12,34 @@ const projects = [
     githubLink: "https://github.com/BlessingLartey/Gift-Shop-e-comm",
   },
   {
-    title: "Employee Appraisal System",
+    title: "Evans Okyere Farms",
     description:
-      "A React-based web application designed to help business owners track and manage employee performance reviews. Features include performance metrics, review scheduling, and detailed reporting.",
-    image: "/placeholder.svg?height=200&width=300",
-    technologies: ["React", "JavaScript", "CSS", "Local Storage"],
-    liveLink: "#",
+      "A professional website showcasing agricultural services, products, and farm information. Built to provide an engaging user experience with clear navigation and responsive design.",
+    image: "/images/evansokyerefarms.com_.png", // replace with actual image path
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    liveLink: "https://evansokyerefarms.com/",
     githubLink: "#",
   },
   {
-    title: "E-commerce API",
+    title: "Hybricold",
     description:
-      "A robust Node.js API for e-commerce applications with user authentication, product management, order processing, and payment integration. Built with Express and MongoDB.",
-    image: "/placeholder.svg?height=200&width=300",
-    technologies: ["Node.js", "Express", "MongoDB", "JWT", "Stripe API"],
-    liveLink: "#",
-    githubLink: "#",
+      "A corporate website for Hybricold, designed to showcase products and services. Features a modern layout with responsive design for all devices.",
+    image: "/images/hybricold.com_.png", // replace with actual image path
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    liveLink: "https://hybricold.com/",
+    githubLink: "#", // add GitHub link if available
   },
   {
-    title: "Todo Web Application",
+    title: "Agrass Drone",
     description:
-      "A clean and intuitive todo application built with vanilla JavaScript. Features include task creation, editing, deletion, local storage persistence, and responsive design.",
-    image: "/placeholder.svg?height=200&width=300",
-    technologies: ["HTML", "CSS", "JavaScript", "Local Storage"],
-    liveLink: "#",
-    githubLink: "#",
+      "A website for Agrass Drone, highlighting drone services for agriculture and surveying. Built with modern web technologies to provide a smooth user experience and responsive layout.",
+    image: "/images/agrassDrone.png", // replace with actual image path
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    liveLink: "https://agrass-drone.com/",
+    githubLink: "#", // add GitHub link if available
   },
-]
+];
+
 
 export function Projects() {
   return (

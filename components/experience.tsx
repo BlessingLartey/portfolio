@@ -2,33 +2,43 @@ import { ExternalLink } from "lucide-react"
 
 const experiences = [
   {
-    period: "2023 — PRESENT",
-    title: "Frontend Developer",
-    company: "NearForGood",
+    period: "Jul 2024 – Nov 2025",
+    title: "Digital Skills Expert (Contractor)",
+    company: "MEST Africa",
     description:
-      "Build and maintain critical components used to construct web applications and mobile apps. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-    technologies: ["JavaScript", "TypeScript", "React", "Node.js", "Next.js"],
-    link: "https://retm-front-ten.vercel.app/dashboard",
+      "Provided website development and support for innovators under the UNDP Young Africa Innovates (YAI) project. Collaborated with innovation teams to enhance site functionality, performance, and user experience. Delivered progress reports and ensured timely completion of deliverables with high compliance and quality standards.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"],
+    // link: "", // commented out for now
   },
   {
-    period: "2025",
-    title: "Backend Developer",
+    period: "Apr 2024 – Jun 2024",
+    title: "Graduate Intern – Full-Stack Developer",
+    company: "Giacare",
+    description:
+      "Developed a full-stack Employee Assessment Platform using React, Node.js, and MongoDB. Implemented user authentication and CRUD operations to enhance platform functionality and security. Participated in Agile workflows, code reviews, and sprint planning.",
+    technologies: ["React", "Node.js", "MongoDB", "Express", "JavaScript"],
+    // link: "", // commented out
+  },
+  {
+    period: "Oct 2022 – Sept 2023",
+    title: "National Service – Web Developer",
+    company: "IT Consortium",
+    description:
+      "Built an Internship Management System using HTML, CSS, and JavaScript, improving the internal application process for interns. Designed workflow mockups in Figma and collaborated with senior developers to enhance UX/UI. Gained foundational experience with Angular.",
+    technologies: ["HTML", "CSS", "JavaScript", "Angular", "Figma"],
+    // link: "", // commented out
+  },
+  {
+    period: "Jan 2025 – Present",
+    title: "Backend Developer – Freelance",
     company: "Freelancing",
     description:
-      "Built, styled, and shipped high-quality websites, design systems, mobile apps, and digital experiences for a diverse array of projects for clients including small businesses and large corporations.",
-    technologies: ["MongoDb", "Node.js"],
-    link: "https://www.faivich.com/",
-  },
-  {
-    period: "2021 — 2022",
-    title: "Junior Web Developer",
-    company: "NearForGood",
-    description:
-      "Developed and maintained web applications using modern JavaScript frameworks. Collaborated with design and product teams to implement user-friendly interfaces and improve user experience.",
-    technologies: ["HTML", "CSS", "JavaScript", "Vue.js", "PHP"],
-    link: "#",
+      "Built and deployed the backend for a commercial website using Node.js, Express, and MongoDB. Implemented RESTful APIs for dynamic content management and user interactions, ensuring data security and optimized performance. Collaborated with the frontend team to integrate APIs and troubleshoot bugs.",
+    technologies: ["Node.js", "Express", "MongoDB", "RESTful APIs"],
+    // link: "", // commented out
   },
 ]
+
 
 export function Experience() {
   return (
@@ -54,7 +64,7 @@ export function Experience() {
                 <div>
                   <a
                     className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
-                    href={exp.link}
+                    // href={exp.link}
                     target="_blank"
                     rel="noreferrer noopener"
                   >
