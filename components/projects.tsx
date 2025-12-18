@@ -33,7 +33,7 @@ const projects = [
     title: "Agrass Drone",
     description:
       "A website for Agrass Drone, highlighting drone services for agriculture and surveying. Built with modern web technologies to provide a smooth user experience and responsive layout.",
-    image: "/images/agrassDrone.png", // replace with actual image path
+    image: "/images/AgrassDrone.png", // replace with actual image path
     technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     liveLink: "https://agrass-drone.com/",
     githubLink: "#", // add GitHub link if available
